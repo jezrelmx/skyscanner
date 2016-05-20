@@ -1,0 +1,45 @@
+<Alloy>
+	<Window class="container">
+		<View id="view_navbar">
+			<View id="view_titulo">
+				<Label id="lb_titulo">Skyscanner</Label>
+			</View>
+			<View id="view_nube">
+				<ImageView id="img_logo"></ImageView>
+			</View>
+		</View>
+		<View id="view_switch_tipo_viaje">
+			<View class="view_switch">
+				<View class="view_switch_off">
+					<Label class="lb_off">ONE WAY</Label>
+				</View>
+				<View class="view_switch_on">
+					<Label class="lb_on">RETURN</Label>
+				</View>
+			</View>
+		</View>
+		<View id="view_origen_destino">
+			<View class="view_lugares">
+				<View class="view_1"><Label class="lb_1">FROM</Label></View>
+				<View class="view_2"><Label class="lb_2">IST</Label></View>
+				<View class="view_3"><Label class="lb_3">ISTANBUL</Label></View>
+			</View>
+			<View id="view_avion">
+				<ImageView id="img_avion"></ImageView>
+			</View>
+			<View class="view_lugares">
+				<View class="view_1"><Label class="lb_1">TO</Label></View>
+				<View class="view_2"><Label class="lb_2">LAX</Label></View>
+				<View class="view_3"><Label class="lb_3">LOS ANGELES</Label></View>
+			</View>
+		</View>
+		<View id="view_fecha"></View>
+		<View id="view_pasajeros"></View>
+		<View id="view_num_vuelo"></View>
+		<View id="view_switch_escalas"></View>
+		<View id="view_boton_buscar"></View>
+		
+		
+		<Label id="label" onClick="doClick">Hello, World</Label>
+	</Window>
+</Alloy>
